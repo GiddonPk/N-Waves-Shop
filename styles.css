@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    padding: 0;
+    font-family: "Roboto";
+}
+
+html{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    height: 100%;
+    width: 100%;
+}
+
+header a{
+    margin-left:3% ;
+}
+
+header{
+    height: 8%;
+    width: 100%;
+    background-color: #663366;
+    display: flex;
+    align-items: center;
+}
+
+
+.botones{
+    width: 17%;
+    display: flex;
+    margin-left: 38%;
+}
+
+.btnRegistro{
+    background-color: white;
+    color: #663366;
+    padding: 3%;
+    font-family: "Roboto";
+    width: 100%;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+}
+form h1{
+    font-family: "Roboto";
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+}
+form input{
+    width: 80%;
+    border: 2px solid  #663366;
+    margin: 10px;
+    padding: 10px;
+}
+
+form button{
+    width: 80%;
+    border: 2px solid  #663366;
+    margin: 10px;
+    padding: 10px;
+    background-color: #663366;
+    color: white;
+}
+
+.Nav{
+    align-items: left;
+    width: 30%;
+    margin-left: 4%;
+    position: relative;
+    top:10%;
+}
+
+.Nav a{
+    text-decoration: none;
+    font-family: "Roboto";
+    color: white;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+
+.botones a{
+    text-decoration: none;
+    font-family: "Roboto";
+    color: #663366;
+    text-align: center;
+}
+
+footer{
+    width: 100%;
+    height: 17%;
+    background-color: #663366;
+}
+
+footer nav{
+    color: white;
+    width: 100%;
+    display:flex;
+    justify-content: space-around;
+    position: relative;
+    top: 20%;
+}
+
+footer a{
+    margin-left: 4%;
+    margin-right: 4%;
+    font-family: "Roboto";
+    color: white;
+    text-decoration: none;
+
+}
+
+.inicioSesion{
+    background-color: white;
+    width: 50%;
+    height: 100%;
+    color: #663366;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagenInicio{
+    background-color: blue;
+    width: 50%;
+    height: 100%;
+    background-image: url('imagenes/estudio.jpeg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: -35px;
+}
+
+.formInicio{
+    width: 100%;
+    height: 75%;
+    display: flex;
+}
+
+.Empresa{
+    font-size: 150%;
+    font-family: "Antonio";
+    color: white;
+}
+
+hr {
+    position: relative;
+    top: 40%;
+    margin-left: 5%;
+    height: 2px;
+    width: 90%;
+    background-color: rgb(255, 255, 255);
+}

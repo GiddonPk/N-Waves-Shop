@@ -1,0 +1,121 @@
+.ventaBeat{
+    width: 100%;
+    height: 100%;
+    display: flex;
+
+}
+
+.info{
+    width: 40%;
+    border: 2px white solid;
+    border-radius: 3%;
+    background-color: rgba(255, 255, 255, 0.251);
+}
+
+.morado{
+    background-color: #66336695;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.morado p{
+    color: white;
+    font-family: "Roboto";
+    margin: 40px;
+    font-size: medium;
+}
+.morado h1{
+    color: white;
+    font-family: "Roboto";
+    margin: 40px;
+}
+
+.productoB{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 50%;
+    height: 100%;
+}
+.productoB h1{
+    margin: 40px;
+}
+
+.portadaBeat{
+    background-image: url(imagenes/mhumcho.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 50%;
+}
+
+.comprar{
+    text-decoration: none;
+    color:#663366 ;
+    background-color: white;
+    padding-left:80px ;
+    padding-right: 80px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.comprar:hover{
+    transition: 1s all ;
+    padding-left:120px ;
+    padding-right: 120px;
+}
+
+.play{
+    background-image: url(imagenes/play.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+.pause{
+    background-image: url(imagenes/pause.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+
+}
+.controles{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 130px;
+}
+
+.portadaDiseño{
+    background-image: url(imagenes/camiseta.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    height: 50%;
+}
+
+.bola{
+    width: 25px;
+    height: 25px;
+    background-color: #663366;
+    border-radius: 50%;
+    margin: 10px;
+}
+.bola1{
+    width: 25px;
+    height: 25px;
+    border: 3px solid #663366 ;
+    background-color: #ffffff;
+    border-radius: 50%;
+}

@@ -37,7 +37,8 @@
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
-    background-size:cover;
+    background-size: cover;
+    background-position: center;
     transition: width 1s ease;
     box-shadow: -20px 0px 10px 0px rgba(0, 0, 0, 0.604);
 }

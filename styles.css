@@ -31,6 +31,7 @@ header{
     font-size: 150%;
     font-family: "Antonio";
     color: white;
+    text-decoration: none;
 }
 
 .botones{
@@ -63,12 +64,9 @@ footer nav{
     align-items: center;
 }
 
-footer a{
-    margin-left: 4%;
-    margin-right: 4%;
-    font-family: "Roboto";
+footer p{
     color: white;
-    text-decoration: none;
+    font-size: small;
 }
 
 /* a */

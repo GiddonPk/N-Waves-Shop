@@ -1,3 +1,54 @@
-.btn-custom:hover{
+.btn-outline-secondary:hover{
     background-color: #663366;
+}
+.btn-outline-secondary{
+    color: #663366;
+    border-color: #663366;
+}
+
+.btn-primary{
+    background-color: #663366;
+    border-color: #663366;
+}
+.btn-primary:hover{
+    color: #663366;
+    background-color: #ffffff;
+    border-color: #663366;
+}
+.btn-secondary:hover{
+    color: #663366;
+    background-color: #ffffff;
+    border-color: #663366;
+}
+.btn-secondary{
+    background-color: #663366;
+    border-color: #663366;
+    border-radius: 10px;
+    width: 90%;
+}
+
+.form-control{
+    width: 90%;
+}
+.badge{
+    color: white;
+    background-color: #663366;
+    border-color: #663366;
+}
+.sadge{
+    color: #663366;
+}
+
+main{
+    width: 100%;
+    margin: 10px;
+}
+
+.container{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 34px;
+    background: linear-gradient(145deg, #e6e6e6, #ffffff);
+    box-shadow:  11px 11px 22px #ebebeb,
+                -11px -11px 22px #ffffff;
 }

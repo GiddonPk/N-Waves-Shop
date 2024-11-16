@@ -1,0 +1,64 @@
+
+.infoPlan{
+    width: 100%;
+    height: 100%;
+    background-image: url('imagenes/free.jpg');
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    transition: width 1s ease;
+}
+.infoPlan:hover{
+    width: 150%;
+}
+.infoPlan p{
+    color: white;
+}
+
+.black2{
+    background-image: url('imagenes/bronceT.jpg');
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.black2 p{color: white; background-color: rgba(0, 0, 0, 0.442);padding: 10px;border-radius: 10px;}
+.black23 p{color: white; background-color: rgba(0, 0, 0, 0.442);padding: 10px;border-radius: 10px;}
+.black24 p{color: white; background-color: rgba(0, 0, 0, 0.442);padding: 10px;border-radius: 10px;}
+.black23{
+    background-image: url('imagenes/silver.jpg');
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.black24{
+    background-image: url('imagenes/gold.jpg');
+    border-top-left-radius: 55px;
+    border-bottom-left-radius: 55px;
+    width: 100%;
+    height: 100%;
+    background-size:cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.tarjeta{
+    border-radius: 55px;
+    background: #e0e0e0;
+    box-shadow:  22px 22px 74px #cecece,
+                -22px -22px 74px #f2f2f2;
+}

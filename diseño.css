@@ -6,6 +6,9 @@
     background-size: cover;
     background-position: 0px;
     background-color: black;
+    transition: width 1s ease;
+    box-shadow: -20px 0px 10px 0px rgba(0, 0, 0, 0.604);
+
 }
 .diseño2{
     background-image: url('/imagenes/pegatina.jpg');
@@ -14,6 +17,9 @@
     height: 100%;
     background-size: cover;
     background-position: 0px;
+    transition: width 1s ease;
+    box-shadow: -20px 0px 10px 0px rgba(0, 0, 0, 0.604);
+
 }
 .diseño3{
     background-image: url('/imagenes/disco.png');
@@ -22,74 +28,35 @@
     height: 100%;
     background-size: cover;
     background-position: 0px;
+    transition: width 1s ease;
+    box-shadow: -20px 0px 10px 0px rgba(0, 0, 0, 0.604);
 }
 
-.plan1 p {
-    color: grey;
-    font-size: 20px;
+.diseño1:hover{
+    width: 150%;
 }
-.plan2 p {
-    color: grey;
-    font-size: 20px;
+.diseño2:hover{
+    width: 150%;
 }
-.plan3 p {
-    color: grey;
-    font-size: 20px;
+.diseño3:hover{
+    width: 150%;
 }
 
-.plan1 a{
-    color: white;
-    background-color: #663366;
-    padding: 10px;
-    font-family: "Roboto";
-}
-.plan2 a{
-    color: white;
-    background-color: #663366;
-    padding: 10px;
-    font-family: "Roboto";
-}
-.plan3 a{
-    color: white;
-    background-color: #663366;
-    padding: 10px;
-    font-family: "Roboto";
-}
+/* Sobre mi*/
 
-.plan1 a:hover{
-    transition: 1s all ;
-    background-color: #663366a6;
+.contacta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35.2rem;
+    margin: 5rem;
 }
-.plan2 a:hover{
-    transition: 1s all ;
-    background-color: #663366a6;
-}
-.plan3 a:hover{
-    transition: 1s all ;
-    background-color: #663366a6;
-}
-.plan3 a:hover{
-    transition: 1s ease-in-out ;
-    background-color: #663366a6;
-}
-
-.margen{
-    margin-top: 40px;
-    margin-bottom: 150px;
-    color: #663366;
-}
-.margen1{
-    margin-top: 40px;
-    margin-bottom: 115px;
-}
-
 .foto{
-    background-image: url(/imagenes/estudio.jpeg);
-    width: 50%;
+    background-image: url(imagenes/estudio.jpeg);
+    width: 50vw;
     height: 100%;
     background-repeat: no-repeat;
-    background-size: contain;
-    margin:40px;
+    background-size: cover;
 }
 
 .texto{
@@ -115,12 +82,6 @@
     margin-bottom: 10%;
 }
 
-.contacta{
-    display: flex;
-    width: 100%;
-    height: 100%;
-}
-
 .contactoBton{
     font-size: 20px;
     font-family: "Roboto";
@@ -132,8 +93,4 @@
     padding-bottom:10px;
     width: 50%;
     margin: 20px;
-}
-.contactoBton:hover{
-    transition: 1s all ;
-    background-color: #663366a6;
 }

@@ -4,22 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>N-waves Shop</title>
-    <link rel="stylesheet" href="styles.css">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Antonio:wght@100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
     <link rel="icon" href="imagenes/escarabajo n-waves.ico" type="image/x-icon">
+
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&family=Antonio:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="inicio.css">
 </head>
 <body>
 
     <header>
-        <a href = "/inicio.html" class="Empresa">N-WAVES SHOP</a>
+        <a href = "/index.html" class="Empresa">N-WAVES SHOP</a>
         <nav class="Nav">
             <a href="/beats.html">Beats</a>
             <a href="/diseño.html">Diseño gráfico</a>
@@ -28,22 +22,48 @@
         </nav>
         <div class="botones">
             <a href="/registro.html" class="btnRegistro">Registrarse</a>
-            <a href="/index.html" class="btnRegistro">Iniciar sesión</a>    
+            <a href="/inicioS.html" class="btnRegistro">Iniciar sesión</a>    
         </div>
     </header>
-    
-    <section class="formInicio2">
-        <div class="imagenInicio"></div>
-        <div class="inicioSesion">
-            <form action="">
-                <h1>Inicio de sesión</h1>
-                <input type="text" name="" id="userName" placeholder="nombre de usuario">
-                <input type="password" name="" id="password" placeholder="constraseña">
-                <button>Iniciar sesión</button>
-            </form>
-        </div>
 
-    </section>
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1 style="margin: 100px;">Diseño Gráfico y Producción Musical</h1>
+                <a href="#servicios" class="btnRegistro">Descubre Nuestros Servicios</a>
+            </div>
+        </section>
+
+        <section id="servicios" class="servicios">
+            <h2>Nuestros Servicios</h2>
+            <div class="servicios-grid">
+                <div class="servicio">
+                    <h3>Diseño Gráfico</h3>
+                    <p>Creamos diseños para tu marca y atraer a tu audiencia.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Producción Musical</h3>
+                    <p>Damos forma a tu sonido con producciones profesionales que destacan en la industria musical.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Branding</h3>
+                    <p>Desarrollamos identidades de marca coherentes y memorables que resuenan con tu público objetivo.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Mezcla y Masterización</h3>
+                    <p>Perfeccionamos tu sonido para que brille en cualquier plataforma y sistema de reproducción.</p>
+                </div>
+                <div class="servicio">
+                    <h3>Beats Personalizados</h3>
+                    <p>Instrumentales únicas y adaptadas a tu estilo. Desde trap hasta lo-fi, nuestros beats son 100% originales</p>
+                </div>
+                <div class="servicio">
+                    <h3>Diseño de Portadas</h3>
+                    <p>Diseño de portadas llamativas para tus lanzamientos</p>
+                </div>
+            </div>
+        </section>
+    </main>
 
     <footer>
         <nav class="Foot">
@@ -51,5 +71,6 @@
             <p class="Empresa">N-WAVES SHOP</p>
         </nav>
     </footer>
+    
 </body>
 </html>

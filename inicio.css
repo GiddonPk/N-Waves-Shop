@@ -1,15 +1,14 @@
 /* Sección Hero */
 .hero {
-    background-image: url('https://images.unsplash.com/photo-1511379938547-c1f69419868d?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80');
-    background-size: cover;
-    background-position: center;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    color: white;
     position: relative;
+    width: 100%;
+    height: 80vh; /* Ajusta el tamaño de la sección */
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff; /* Texto en blanco para contraste */
+    text-align: center;
 }
 
 .hero::before {
@@ -25,6 +24,16 @@
 .hero-content {
     position: relative;
     z-index: 1;
+}
+
+.hero-video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
 }
 
 .hero h1 {

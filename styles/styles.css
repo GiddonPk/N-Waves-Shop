@@ -54,20 +54,7 @@ header{
     text-align: center;
 }
 
-/* Footer  */
-footer nav{
-    height:15vh;
-    background-color: #663366;
-    color: white;
-    display:flex;
-    justify-content: space-around;
-    align-items: center;
-}
 
-footer p{
-    color: white;
-    font-size: small;
-}
 
 /* a */
 form{

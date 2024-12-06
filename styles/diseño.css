@@ -1,5 +1,5 @@
 .diseño1{
-    background-image: url('/imagenes/camiseta.jpg');
+    background-image: url('../imagenes/camiseta.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -11,7 +11,7 @@
 
 }
 .diseño2{
-    background-image: url('/imagenes/pegatina.jpg');
+    background-image: url('../imagenes/pegatina.jpg');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -22,7 +22,7 @@
 
 }
 .diseño3{
-    background-image: url('/imagenes/disco.png');
+    background-image: url('../imagenes/disco.png');
     background-repeat: no-repeat;
     width: 100%;
     height: 100%;
@@ -52,7 +52,7 @@
     margin: 5rem;
 }
 .foto{
-    background-image: url(imagenes/estudio.jpeg);
+    background-image: url('../imagenes/estudio.jpeg');
     width: 50vw;
     height: 100%;
     background-repeat: no-repeat;

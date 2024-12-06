@@ -48,7 +48,7 @@
 }
 
 .portadaBeat{
-    background-image: url(imagenes/mhumcho.jpeg);
+    background-image: url('../imagenes/mhumcho.jpeg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 30vw;
@@ -71,24 +71,7 @@
     padding-right: 120px;
 }
 
-.play{
-    background-image: url(imagenes/play.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
 
-}
-.pause{
-    background-image: url(imagenes/pause.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    width: 50px;
-    height: 50px;
-    margin: 10px;
-
-}
 .controles{
     display: flex;
     align-items: center;
@@ -98,7 +81,7 @@
 }
 
 .portadaDiseño{
-    background-image: url(imagenes/camiseta.jpg);
+    background-image: url('../imagenes/camiseta.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     width: 30vw;

@@ -125,7 +125,7 @@ form button{
 .imagenInicio{
     width: 50%;
     height:100%;
-    background-image: url('imagenes/estudio.jpeg');
+    background-image: url('../imagenes/estudio.jpeg');
     background-repeat: no-repeat;
     background-size:cover;
     background-position: -35px;

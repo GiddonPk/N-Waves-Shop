@@ -62,11 +62,16 @@
 
             <div class="productoB">
                 <h1>Diseño M Huncho</h1>
-                <div class="portadaDiseño"></div>
+                <div class="slider-container">
+                    <div class="slider">
+                        <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/km/t/17/121f1d26-093c-42f3-ab8b-ad810619e7f9.jpg" alt="Camiseta 1" class="slide">
+                        <img src="https://img4.dhresource.com/webp/m/0x0/f3/albu/km/t/17/117530f8-be5e-4eb7-b27e-f10e2a5053aa.jpg" alt="Camiseta 2" class="slide">
+                        <!-- Añade más imágenes según sea necesario -->
+                    </div>
+                </div>
                 <div class="controles">
-                    <div class="bola"></div>
-                    <div class="bola1"></div>
-                    <div class="bola"></div>
+                    <div class="bola" onclick="changeSlide(-1)"></div>
+                    <div class="bola1" onclick="changeSlide(1)"></div>
                 </div>
             </div>
         </div>
@@ -78,5 +83,6 @@
             <p class="Empresa">N-WAVES SHOP</p>
         </nav>
     </footer>
+    <script src="slider.js"></script>
 </body>
 </html>
